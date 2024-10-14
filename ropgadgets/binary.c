@@ -16,6 +16,7 @@
 // void free_binary(Binary *binary);
 //
 
+// Function to create a Binary object
 Binary* create_binary(const char *filename, const char *raw_arch, int thumb, const char *raw_mode, const char *raw_endian) {
     Binary *binary = malloc(sizeof(Binary));
     if (!binary) {
